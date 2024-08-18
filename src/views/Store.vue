@@ -5,9 +5,6 @@
                 <div>
                     <h3 class="subtitle">Our Products</h3>
                 </div>
-                <div>
-                    <router-link to="/cart"><button class="page-btn me-3">View Cart</button></router-link>
-                </div>
             </div>
             <div v-if="!products">
                 <h3>Loading...</h3>

@@ -1,12 +1,5 @@
 <script>
-  import Store from './views/Store.vue';
-  import Cart from './views/Cart.vue';
   import Menu from './components/Menu.vue';
-
-   import axios from 'axios';
-
-
-
 
   export default {
         components:{
@@ -16,11 +9,6 @@
             return{
                 products: null
             }
-        }, 
-        async created(){
-            const response  = await axios.get(axios.defaults.baseURL);
-            this.products = response.data;
-            console.log(this.products)
         }
 
     }

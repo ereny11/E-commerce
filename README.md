@@ -27,3 +27,9 @@ npm run dev
 ```sh
 npm run build
 ```
+
+
+### Demo
+
+https://shopping-d6f8c.web.app/
+
